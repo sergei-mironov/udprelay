@@ -6,6 +6,10 @@ UDP ports and waits for clients. When clients are connected, the tool sends data
 received from one of them to another and vice versa.
 Typical use case is to allow UDP clients behind different NATs to talk to each other.
 
+For example, I am using this tool to connect to [Mosh](https://mosh.org) server behind
+NAT while staying behind another NAT. Details are described in this
+StackOverflow [answer](https://stackoverflow.com/a/57948167/1133157).
+
 Usage
 =====
 
@@ -27,7 +31,7 @@ Limitations
   seen address of another hand.
 * Udprelay drops packets from one hand before it knows the remote credentials of
   the other hand.
-
+  
 Debugging
 =========
 
