@@ -1,7 +1,7 @@
 Udprelay
 ========
 
-This tool implements trivial symmetrical UDP relay. After start, it "opens" two
+Udprelay implements trivial symmetrical UDP relay. After start, it "opens" two
 UDP ports and waits for clients. When clients are connected, the tool sends data 
 received from one of them to another and vice versa.
 Typical use case is to allow UDP clients behind different NATs to talk to each other.
