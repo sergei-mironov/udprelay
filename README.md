@@ -1,12 +1,12 @@
 Udprelay
 ========
 
-Udprelay implements trivial symmetrical UDP relay. After start, it "opens" two
+Udprelay implements a trivial symmetrical UDP relay. After start, it "opens" two
 UDP ports and waits for clients. When clients are connected, the tool sends data 
 received from one of them to another and vice versa.
 Typical use case is to allow UDP clients behind different NATs to talk to each other.
 
-One (and maybe the only) it's application is to help [Mosh](https://mosh.org) client
+One (and maybe the only) application is to help [Mosh](https://mosh.org) client
 to connect to Mosh server behind NAT while staying behind another NAT. Details are
 described in this StackOverflow [answer](https://stackoverflow.com/a/57948167/1133157).
 
